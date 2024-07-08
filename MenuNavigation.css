@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #25D366;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a.purple {
+    background-color: purple;
+}
+
+nav ul li a.cyan {
+    background-color: cyan;
+}
+
+nav ul li a.green {
+    background-color: green;
+}
+
+nav ul li a.white {
+    background-color: white;
+    color: black;
+}
+
+nav ul li a.gold {
+    background-color: gold;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+nav ul li a.purple,
+nav ul li a.green {
+    color: white; 
+}
+nav ul li a.purple:hover {
+    background-color: purple; 
+}
+
+nav ul li a.cyan:hover {
+    background-color: cyan; 
+}
+
+nav ul li a.green:hover {
+    background-color: green; 
+}
+
+nav ul li a.white:hover {
+    background-color: white; 
+    color: black; 
+}
+
+nav ul li a.gold:hover {
+    background-color: gold; 
+}
+
+nav ul li a:hover {
+    opacity: 0.8; 
+}
+
+
+.content {
+    padding-top: 60px; 
+}
+
+section {
+    padding: 60px;
+    min-height: 100vh;
+    background-color: transparent;
+}
